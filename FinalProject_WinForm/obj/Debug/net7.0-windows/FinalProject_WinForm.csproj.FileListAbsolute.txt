@@ -69,8 +69,8 @@ D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\ob
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UCMenu.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UCCheckBox.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.ItemsDetail.resources
-D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UCQuanlity.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.AddItems.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UCItems.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.MyProduct.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UCMyProduct.resources
+D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.MyCart.resources

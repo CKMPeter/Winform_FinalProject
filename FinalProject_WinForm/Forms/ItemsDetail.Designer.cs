@@ -53,15 +53,17 @@
             lbItemsName = new Label();
             panel4 = new Panel();
             label3 = new Label();
+            lbPrice = new Label();
             label4 = new Label();
             lbYear = new Label();
             label5 = new Label();
             lbOriginPrice = new Label();
-            label6 = new Label();
             panel5 = new Panel();
+            pbAdd = new PictureBox();
+            pbSubtract = new PictureBox();
+            txtQuantity = new TextBox();
             label2 = new Label();
-            lbPrice = new Label();
-            ucQuanlity2 = new UCQuanlity();
+            lbTotal = new Label();
             pictureBox1 = new PictureBox();
             ucMenu1 = new UCMenu();
             panel1.SuspendLayout();
@@ -82,6 +84,8 @@
             ((System.ComponentModel.ISupportInitialize)pbAddCart).BeginInit();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pbAdd).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbSubtract).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -332,7 +336,7 @@
             pbAddCart.SizeMode = PictureBoxSizeMode.StretchImage;
             pbAddCart.TabIndex = 3;
             pbAddCart.TabStop = false;
-            pbAddCart.MouseEnter += pbAddCart_MouseEnter;
+            pbAddCart.Click += pbAddCart_Click;
             // 
             // lbItemsName
             // 
@@ -348,11 +352,11 @@
             // 
             panel4.BackColor = SystemColors.ControlLight;
             panel4.Controls.Add(label3);
+            panel4.Controls.Add(lbPrice);
             panel4.Controls.Add(label4);
             panel4.Controls.Add(lbYear);
             panel4.Controls.Add(label5);
             panel4.Controls.Add(lbOriginPrice);
-            panel4.Controls.Add(label6);
             panel4.Location = new Point(445, 298);
             panel4.Name = "panel4";
             panel4.Size = new Size(304, 146);
@@ -367,6 +371,17 @@
             label3.Size = new Size(80, 37);
             label3.TabIndex = 14;
             label3.Text = "Year:";
+            // 
+            // lbPrice
+            // 
+            lbPrice.AutoSize = true;
+            lbPrice.BackColor = SystemColors.ControlLight;
+            lbPrice.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            lbPrice.Location = new Point(205, 102);
+            lbPrice.Name = "lbPrice";
+            lbPrice.Size = new Size(33, 37);
+            lbPrice.TabIndex = 13;
+            lbPrice.Text = "1";
             // 
             // label4
             // 
@@ -408,57 +423,75 @@
             lbOriginPrice.TabIndex = 18;
             lbOriginPrice.Text = "1";
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(205, 102);
-            label6.Name = "label6";
-            label6.Size = new Size(33, 37);
-            label6.TabIndex = 17;
-            label6.Text = "1";
-            // 
             // panel5
             // 
             panel5.BackColor = SystemColors.ControlLight;
+            panel5.Controls.Add(pbAdd);
+            panel5.Controls.Add(pbSubtract);
+            panel5.Controls.Add(txtQuantity);
             panel5.Controls.Add(label2);
-            panel5.Controls.Add(lbPrice);
-            panel5.Controls.Add(ucQuanlity2);
+            panel5.Controls.Add(lbTotal);
             panel5.Location = new Point(49, 261);
             panel5.Name = "panel5";
             panel5.Size = new Size(344, 239);
             panel5.TabIndex = 23;
             // 
+            // pbAdd
+            // 
+            pbAdd.Image = Properties.Resources.add;
+            pbAdd.Location = new Point(146, 139);
+            pbAdd.Name = "pbAdd";
+            pbAdd.Size = new Size(50, 70);
+            pbAdd.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbAdd.TabIndex = 24;
+            pbAdd.TabStop = false;
+            pbAdd.Click += pbAdd_Click;
+            // 
+            // pbSubtract
+            // 
+            pbSubtract.Image = Properties.Resources.minus;
+            pbSubtract.Location = new Point(27, 139);
+            pbSubtract.Name = "pbSubtract";
+            pbSubtract.Size = new Size(50, 70);
+            pbSubtract.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbSubtract.TabIndex = 23;
+            pbSubtract.TabStop = false;
+            pbSubtract.Click += pbSubtract_Click;
+            // 
+            // txtQuantity
+            // 
+            txtQuantity.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
+            txtQuantity.Location = new Point(83, 139);
+            txtQuantity.Name = "txtQuantity";
+            txtQuantity.PlaceholderText = "1";
+            txtQuantity.Size = new Size(57, 70);
+            txtQuantity.TabIndex = 22;
+            txtQuantity.Text = "1";
+            txtQuantity.TextAlign = HorizontalAlignment.Center;
+            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.ControlLight;
+            label2.BackColor = Color.Transparent;
+            label2.FlatStyle = FlatStyle.Flat;
             label2.Font = new Font("Segoe UI", 28F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(28, 26);
+            label2.Location = new Point(27, 46);
             label2.Name = "label2";
             label2.Size = new Size(149, 62);
-            label2.TabIndex = 12;
+            label2.TabIndex = 20;
             label2.Text = "Total:";
             // 
-            // lbPrice
+            // lbTotal
             // 
-            lbPrice.AutoSize = true;
-            lbPrice.BackColor = SystemColors.ControlLight;
-            lbPrice.Font = new Font("Segoe UI", 28F, FontStyle.Bold, GraphicsUnit.Point);
-            lbPrice.Location = new Point(213, 26);
-            lbPrice.Name = "lbPrice";
-            lbPrice.Size = new Size(54, 62);
-            lbPrice.TabIndex = 13;
-            lbPrice.Text = "1";
-            // 
-            // ucQuanlity2
-            // 
-            ucQuanlity2.BackColor = SystemColors.ControlLight;
-            ucQuanlity2.Location = new Point(28, 76);
-            ucQuanlity2.Name = "ucQuanlity2";
-            ucQuanlity2.Price = 0;
-            ucQuanlity2.Size = new Size(181, 107);
-            ucQuanlity2.TabIndex = 11;
+            lbTotal.AutoSize = true;
+            lbTotal.BackColor = Color.Transparent;
+            lbTotal.FlatStyle = FlatStyle.Flat;
+            lbTotal.Font = new Font("Segoe UI", 28F, FontStyle.Bold, GraphicsUnit.Point);
+            lbTotal.Location = new Point(182, 46);
+            lbTotal.Name = "lbTotal";
+            lbTotal.Size = new Size(54, 62);
+            lbTotal.TabIndex = 21;
+            lbTotal.Text = "1";
             // 
             // pictureBox1
             // 
@@ -513,6 +546,8 @@
             panel4.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pbAdd).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbSubtract).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
@@ -536,8 +571,6 @@
         private PictureBox pictureBox2;
         private Label label1;
         private Label lbSellerName;
-        private UCQuanlity ucQuanlity2;
-        private Label label2;
         private Label lbPrice;
         private PictureBox pbItemImage3;
         private PictureBox pbItemImage2;
@@ -546,7 +579,6 @@
         private Label label3;
         private Label lbYear;
         private Label lbOriginPrice;
-        private Label label6;
         private Label label5;
         private Label label7;
         private Label lbQuantity;
@@ -555,5 +587,10 @@
         private Label label8;
         private Panel panel5;
         private PictureBox pbSummit;
+        private Label label2;
+        private Label lbTotal;
+        private PictureBox pbAdd;
+        private PictureBox pbSubtract;
+        private TextBox txtQuantity;
     }
 }

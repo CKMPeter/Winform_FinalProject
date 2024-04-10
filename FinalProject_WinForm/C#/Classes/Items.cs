@@ -8,6 +8,7 @@ namespace FinalProject_WinForm
 {
     public class Items
     {
+        private string itemId;
         private string itemName;
         private string itemDescription;
         private int itemQuantity;
@@ -20,6 +21,7 @@ namespace FinalProject_WinForm
         private int itemRating;
 
 
+        public string ItemId { get { return itemId; } set { itemId = value; } } 
         public string ItemName { get { return itemName; } set {  itemName = value; } }
         public string ItemDescription { get {  return itemDescription; } set { itemDescription = value; } }
         public int ItemQuantity { get { return itemQuantity; } set { itemQuantity = value; } }

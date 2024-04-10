@@ -42,13 +42,13 @@
             pbItemsPicture = new PictureBox();
             panel4 = new Panel();
             label8 = new Label();
-            label4 = new Label();
             txtProductPrice = new TextBox();
             txtQuality = new TextBox();
             label3 = new Label();
             label6 = new Label();
             txtOriginPrice = new TextBox();
             txtYear = new TextBox();
+            label4 = new Label();
             label1 = new Label();
             txtProductName = new TextBox();
             label2 = new Label();
@@ -153,7 +153,7 @@
             // pbPictureUpload1
             // 
             pbPictureUpload1.Image = Properties.Resources.add;
-            pbPictureUpload1.Location = new Point(574, 364);
+            pbPictureUpload1.Location = new Point(570, 364);
             pbPictureUpload1.Name = "pbPictureUpload1";
             pbPictureUpload1.Size = new Size(60, 60);
             pbPictureUpload1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -230,17 +230,6 @@
             label8.TabIndex = 16;
             label8.Text = "Quality:";
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(12, 237);
-            label4.Margin = new Padding(3, 5, 3, 10);
-            label4.Name = "label4";
-            label4.Size = new Size(177, 32);
-            label4.TabIndex = 10;
-            label4.Text = "Original Price:";
-            // 
             // txtProductPrice
             // 
             txtProductPrice.Location = new Point(41, 267);
@@ -293,6 +282,17 @@
             txtYear.Name = "txtYear";
             txtYear.Size = new Size(380, 27);
             txtYear.TabIndex = 8;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(12, 237);
+            label4.Margin = new Padding(3, 5, 3, 10);
+            label4.Name = "label4";
+            label4.Size = new Size(177, 32);
+            label4.TabIndex = 10;
+            label4.Text = "Original Price:";
             // 
             // label1
             // 

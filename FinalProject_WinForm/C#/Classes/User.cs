@@ -15,6 +15,7 @@ namespace FinalProject_WinForm
         private int gender;
         private string avatar;
         private int rating;
+        private Cart cart;
         public string Name { get { return name; }set { name = value; } }
         public string Password { get { return password; }set { password = value; } }
         public string Email { get { return email; }set { email = value; } }
@@ -22,10 +23,10 @@ namespace FinalProject_WinForm
         public int Gender { get { return gender; } set { gender = value; } }
         public string Avatar { get { return avatar; } set { avatar = value; } }
         public int Rating { get { return rating; } set { rating = value; } }
-
+        public Cart Cart { get { return cart; } set { cart = value; } }
         //Constructor
 
-        public User (string name, string password, string address, string email, int gender, string avatar, int rating)
+        public User(string name, string password, string address, string email, int gender, string avatar, int rating)
         {
             this.name = name;
             this.password = password;

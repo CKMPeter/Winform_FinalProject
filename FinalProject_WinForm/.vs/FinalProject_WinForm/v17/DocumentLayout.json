@@ -3,23 +3,19 @@
   "WorkspaceRootPath": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\forms\\itemsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\itemsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\itemsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\itemsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\queries\\tradeapp.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:queries\\tradeapp.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\usermoreinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\usermoreinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\itemsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\itemsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\c#\\daos\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\daos\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,92 +23,36 @@
       "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\daos\\itemsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\c#\\classes\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\classes\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\c#\\classes\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\classes\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\c#\\classes\\ordereditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\classes\\ordereditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\c#\\daos\\cartdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\daos\\cartdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\ucitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\ucitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\additems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\c#\\classes\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\classes\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\uclogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\c#\\daos\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\daos\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\c#\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\c#\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:c#\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\additems.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\additems.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\myproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\myproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\mycart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:mycart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\itemsdetail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\itemsdetail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\queries\\tradeapp.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:queries\\tradeapp.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\ucitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\ucitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\ucmenubar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\ucmenubar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\myproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\myproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\ucquanlity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\ucquanlity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\uc\\ucmyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:uc\\ucmyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\forms\\myproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:forms\\myproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|d:\\\u0111h spkt_cao kkhai minh\\n\u0103m 3\\hk2\\window programming\\finalproject_winform\\queries\\tradeapp.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{0E8B21B0-C630-4314-8AC8-B6481DA00709}|FinalProject_WinForm.csproj|solutionrelative:queries\\tradeapp.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,335 +62,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemsDetail.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.cs",
-              "RelativeDocumentMoniker": "Forms\\ItemsDetail.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.cs",
-              "RelativeToolTip": "Forms\\ItemsDetail.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwDEAAABDAAAA",
+              "DocumentIndex": 7,
+              "Title": "CartDAO.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\CartDAO.cs",
+              "RelativeDocumentMoniker": "C#\\DAOs\\CartDAO.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\CartDAO.cs",
+              "RelativeToolTip": "C#\\DAOs\\CartDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T04:05:57.195Z",
+              "WhenOpened": "2024-04-04T08:22:37.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "OrderedItems.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\OrderedItems.cs",
+              "RelativeDocumentMoniker": "C#\\Classes\\OrderedItems.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\OrderedItems.cs",
+              "RelativeToolTip": "C#\\Classes\\OrderedItems.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBYAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:03:36.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\Cart.cs",
+              "RelativeDocumentMoniker": "C#\\Classes\\Cart.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\Cart.cs",
+              "RelativeToolTip": "C#\\Classes\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:59:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\Main.cs",
               "RelativeDocumentMoniker": "Forms\\Main.cs",
               "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\Main.cs",
               "RelativeToolTip": "Forms\\Main.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:33:41.808Z"
+              "WhenOpened": "2024-04-04T06:50:09.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemsDetail.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.cs",
-              "RelativeDocumentMoniker": "Forms\\ItemsDetail.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.cs [Design]",
-              "RelativeToolTip": "Forms\\ItemsDetail.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "C#\\Classes\\User.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\User.cs",
+              "RelativeToolTip": "C#\\Classes\\User.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvxkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T05:12:49.652Z"
+              "WhenOpened": "2024-04-04T07:49:02.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "ItemsDAO.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\ItemsDAO.cs",
+              "RelativeDocumentMoniker": "C#\\DAOs\\ItemsDAO.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\ItemsDAO.cs",
+              "RelativeToolTip": "C#\\DAOs\\ItemsDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T05:59:31.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TradeApp.sql ",
               "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Queries\\TradeApp.sql",
               "RelativeDocumentMoniker": "Queries\\TradeApp.sql",
               "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Queries\\TradeApp.sql",
               "RelativeToolTip": "Queries\\TradeApp.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-02T09:04:00.139Z"
+              "WhenOpened": "2024-04-04T05:25:13.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemsDAO.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\ItemsDAO.cs",
-              "RelativeDocumentMoniker": "C#\\DAOs\\ItemsDAO.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\ItemsDAO.cs",
-              "RelativeToolTip": "C#\\DAOs\\ItemsDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\DBConnection.cs",
+              "RelativeDocumentMoniker": "C#\\DAOs\\DBConnection.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\DBConnection.cs",
+              "RelativeToolTip": "C#\\DAOs\\DBConnection.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAtwHUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:43:54.929Z"
+              "WhenOpened": "2024-04-04T06:23:35.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Items.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\Items.cs",
-              "RelativeDocumentMoniker": "C#\\Classes\\Items.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\Items.cs",
-              "RelativeToolTip": "C#\\Classes\\Items.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwCwAAAAIAAAA",
+              "DocumentIndex": 1,
+              "Title": "ItemsDetail.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.cs",
+              "RelativeDocumentMoniker": "Forms\\ItemsDetail.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.cs",
+              "RelativeToolTip": "Forms\\ItemsDetail.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAqwGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:07:20.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\Main.cs",
-              "RelativeDocumentMoniker": "Forms\\Main.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\Main.cs [Design]",
-              "RelativeToolTip": "Forms\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:31:55.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserMoreInfo.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\UserMoreInfo.cs",
-              "RelativeDocumentMoniker": "Forms\\UserMoreInfo.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\UserMoreInfo.cs",
-              "RelativeToolTip": "Forms\\UserMoreInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T14:59:46.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddItems.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\AddItems.cs",
-              "RelativeDocumentMoniker": "Forms\\AddItems.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\AddItems.cs [Design]",
-              "RelativeToolTip": "Forms\\AddItems.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:47:02.563Z"
+              "WhenOpened": "2024-04-04T06:26:38.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UCItems.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCItems.cs",
-              "RelativeDocumentMoniker": "UC\\UCItems.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCItems.cs [Design]",
-              "RelativeToolTip": "UC\\UCItems.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:27:12.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddItems.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\AddItems.cs",
-              "RelativeDocumentMoniker": "Forms\\AddItems.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\AddItems.cs",
-              "RelativeToolTip": "Forms\\AddItems.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAD4v38AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:20:02.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Functions.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\Functions.cs",
-              "RelativeDocumentMoniker": "C#\\Classes\\Functions.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\Functions.cs",
-              "RelativeToolTip": "C#\\Classes\\Functions.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAwwHYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:58:33.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UCLogin.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCLogin.cs",
-              "RelativeDocumentMoniker": "UC\\UCLogin.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCLogin.cs [Design]",
-              "RelativeToolTip": "UC\\UCLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:20:54.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UCLogin.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCLogin.cs",
-              "RelativeDocumentMoniker": "UC\\UCLogin.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCLogin.cs",
-              "RelativeToolTip": "UC\\UCLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:22:40.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LogIn.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\LogIn.cs",
-              "RelativeDocumentMoniker": "Forms\\LogIn.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\LogIn.cs [Design]",
-              "RelativeToolTip": "Forms\\LogIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:32:39.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserDAO.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\UserDAO.cs",
-              "RelativeDocumentMoniker": "C#\\DAOs\\UserDAO.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\DAOs\\UserDAO.cs",
-              "RelativeToolTip": "C#\\DAOs\\UserDAO.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAASAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:14:07.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\User.cs",
-              "RelativeDocumentMoniker": "C#\\Classes\\User.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\C#\\Classes\\User.cs",
-              "RelativeToolTip": "C#\\Classes\\User.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwCMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:09:11.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\LogIn.cs",
-              "RelativeDocumentMoniker": "Forms\\LogIn.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\LogIn.cs",
-              "RelativeToolTip": "Forms\\LogIn.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAD4vzgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T17:55:46.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "MyProduct.cs",
               "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\MyProduct.cs",
               "RelativeDocumentMoniker": "Forms\\MyProduct.cs",
               "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\MyProduct.cs",
               "RelativeToolTip": "Forms\\MyProduct.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAA3wCkAAAAQAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwDUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:33:33.33Z"
+              "WhenOpened": "2024-04-04T06:22:07.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddItems.Designer.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\AddItems.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\AddItems.Designer.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\AddItems.Designer.cs",
-              "RelativeToolTip": "Forms\\AddItems.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "DocumentIndex": 10,
+              "Title": "MyCart.cs",
+              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\MyCart.cs",
+              "RelativeDocumentMoniker": "MyCart.cs",
+              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\MyCart.cs",
+              "RelativeToolTip": "MyCart.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T06:07:57.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ItemsDetail.Designer.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\ItemsDetail.Designer.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\ItemsDetail.Designer.cs",
-              "RelativeToolTip": "Forms\\ItemsDetail.Designer.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAlwBUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T06:38:21.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UCItems.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCItems.cs",
-              "RelativeDocumentMoniker": "UC\\UCItems.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCItems.cs",
-              "RelativeToolTip": "UC\\UCItems.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAIAywCwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:34:23.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UCMenuBar.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCMenuBar.cs",
-              "RelativeDocumentMoniker": "UC\\UCMenuBar.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCMenuBar.cs",
-              "RelativeToolTip": "UC\\UCMenuBar.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAMwAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:45:47.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MyProduct.cs [Design]",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\MyProduct.cs",
-              "RelativeDocumentMoniker": "Forms\\MyProduct.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\MyProduct.cs [Design]",
-              "RelativeToolTip": "Forms\\MyProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T05:08:50.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UCQuanlity.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCQuanlity.cs",
-              "RelativeDocumentMoniker": "UC\\UCQuanlity.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCQuanlity.cs",
-              "RelativeToolTip": "UC\\UCQuanlity.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:43:54.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UCMyProduct.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCMyProduct.cs",
-              "RelativeDocumentMoniker": "UC\\UCMyProduct.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\UC\\UCMyProduct.cs",
-              "RelativeToolTip": "UC\\UCMyProduct.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA+wBUAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:34:18.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MyProduct.Designer.cs",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\MyProduct.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\MyProduct.Designer.cs",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Forms\\MyProduct.Designer.cs",
-              "RelativeToolTip": "Forms\\MyProduct.Designer.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAlwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:43:59.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "D:\\\u0110H SPKT_CAO KKHAI MINH\\N\u0103m 3\\hk2\\Window Programming\\FinalProject_WinForm\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-28T06:22:21.834Z"
+              "WhenOpened": "2024-04-04T06:21:39.829Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Runtime.CompilerServices;
 
 namespace FinalProject_WinForm
 {
@@ -62,7 +63,7 @@ namespace FinalProject_WinForm
                 if (cmd.ExecuteNonQuery() > 0)
                 {
                     MessageBox.Show($"{action} complete");
-                    
+
                 }
             }
             catch (Exception exc)
@@ -86,15 +87,13 @@ namespace FinalProject_WinForm
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    //string imagePath = "C:/Users/DELL/OneDrive/Pictures/logo.png";
-                    //byte[] imageData = File.ReadAllBytes(imagePath);;
-                    //Image image = ByteArrayToImage(imageData);
                     string[] imageList = new string[3];
-                    imageList[0] = reader.GetString(4); // Assuming the image data is in column index 4
-                    imageList[1] = reader.GetString(5); // Assuming the image data is in column index 5
-                    imageList[2] = reader.GetString(6); // Assuming the image data is in column index 6
+                    imageList[0] = reader.GetString(5); // Assuming the image data is in column index 4
+                    imageList[1] = reader.GetString(6); // Assuming the image data is in column index 5
+                    imageList[2] = reader.GetString(7); // Assuming the image data is in column index 6
 
-                    Items tmp = new Items(reader.GetString(0), reader.GetString(2), reader.GetInt32(1), reader.GetInt32(3), reader.GetString(9), imageList, reader.GetInt32(8), reader.GetInt32(7),reader.GetInt32(10), reader.GetInt32(11));
+                    Items tmp = new Items(reader.GetString(1), reader.GetString(3), reader.GetInt32(2), reader.GetInt32(4), reader.GetString(10), imageList, reader.GetInt32(9), reader.GetInt32(8), reader.GetInt32(11), reader.GetInt32(12));
+                    tmp.ItemId = reader.GetGuid(0).ToString();
                     Loadlist.Add(tmp);
 
                 }
@@ -114,7 +113,36 @@ namespace FinalProject_WinForm
                 conn.Close();
             }
             return Loadlist;
-            
+        }
+        public List<OrderedItem> LoadUserCart(string sqlStr, string action)
+        {
+            List<OrderedItem> LoadCart = new List<OrderedItem>();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(sqlStr, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    OrderedItem tmp = new OrderedItem(reader.GetInt32(4), reader.GetString(0), reader.GetGuid(3).ToString(), reader.GetString(2), reader.GetInt32(1));
+                    LoadCart.Add(tmp);
+                }
+                reader.Close();
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    MessageBox.Show($"{action} complete");
+
+                }
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return LoadCart;
         }
     }
 }

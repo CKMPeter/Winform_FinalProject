@@ -17,7 +17,8 @@ namespace FinalProject_WinForm
         public User user;
         public AddItems addItems;
         public MyProduct product;
-        public ItemsDAO itemsDAO = new ItemsDAO();
+        private ItemsDAO itemsDAO = new ItemsDAO();
+        private CartDAO cartDAO = new CartDAO();
         public List<Items> detailItems = new List<Items>();
         public List<UCMyProduct> list1 = new List<UCMyProduct>();
         public List<UCItems> list = new List<UCItems>();
@@ -27,6 +28,7 @@ namespace FinalProject_WinForm
         public HomePage(User user)
         {
             this.user = user;
+            this.user.Cart = new Cart(cartDAO.LoadCartInfo());
             detailItems = itemsDAO.LoadItemsInfo();
             userMoreInfo = new UserMoreInfo(user);
             addItems = new AddItems(user, "add");
