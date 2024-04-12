@@ -13,20 +13,20 @@ namespace FinalProject_WinForm
 {
     public partial class AddItems : Form
     {
-        public User user;
-        public Items item;
-        public ItemsDAO itemsDAO = new ItemsDAO();
+        private User user;
+        private Items item;
+        private ItemsDAO itemsDAO = new ItemsDAO();
         FormEntry logIn = Program.logIn;
         private string[] filePath = new string[3];
         private string mode;
-        public AddItems(User A, string mode)
+        public AddItems(User A, string mode) //for when user add an item to the system
         {
             this.user = A;
             this.mode = mode;
             InitializeComponent();
         }
 
-        public AddItems(Items B, string mode)
+        public AddItems(Items B, string mode) //for when the user want to update the item
         {
             this.item = B;
             this.mode = mode;
@@ -34,36 +34,19 @@ namespace FinalProject_WinForm
             SetInfo();
         }
 
-        private void pbAddCart_Click(object sender, EventArgs e)
+        private void pbAddCart_Click(object sender, EventArgs e) // add to cart
         {
             ///
-            if (mode == "add" && Functions.checkValidYear(txtYear.Text) && Functions.checkValidQuantity(txtProductQuantity.Text))
+            if (mode == "add" && Functions.checkValidQuantity(txtProductQuantity.Text))
             {
-                Items items = new Items(txtProductName.Text, txtProductDiscription.Text, Convert.ToInt32(txtProductQuantity.Text), Convert.ToInt32(txtProductPrice.Text), user.Name, this.filePath, Convert.ToInt32(txtQuality.Text), Convert.ToInt32(txtYear.Text), Convert.ToInt32(txtOriginPrice.Text), 0);
-                Console.WriteLine(items.ItemImage);
+                Items items = new Items(txtProductName.Text, txtProductDiscription.Text, Convert.ToInt32(txtProductQuantity.Text), Convert.ToInt32(txtProductPrice.Text), user.Name, this.filePath, Convert.ToInt32(txtQuality.Text), DateTime.Now.Date, Convert.ToInt32(txtOriginPrice.Text), 5, this.cbCatagory.GetItemText(this.cbCatagory.SelectedItem));
                 itemsDAO.AddItems(items);
-                UCItems uCItems = new UCItems(items);
-                UCMyProduct myProduct = new UCMyProduct(items);
-                byte[] imageData = File.ReadAllBytes(items.ItemImage[0]); ;
-                Image image = Functions.ByteArrayToImage(imageData);
-                myProduct.ProductImage = uCItems.ProductImage = image;
-                myProduct.ProductName = uCItems.ProductName = items.ItemName;
-                uCItems.ProductDiscription = items.ItemDescription;
-                uCItems.ProductPrice = Convert.ToString(items.ItemPrice);
-                myProduct.ProductQuantity = Convert.ToString(items.ItemQuantity);
-                logIn.homePage.list.Add(uCItems);
-                logIn.homePage.list1.Add(myProduct);
+                setUCinfo(items);
             }
-            else if (mode == "update" && Functions.checkValidYear(txtYear.Text) && Functions.checkValidQuantity(txtProductQuantity.Text))
+            else if (mode == "update"&& Functions.checkValidQuantity(txtProductQuantity.Text))
             {
-                this.item.ItemName = txtProductName.Text;
-                this.item.ItemDescription = txtProductDiscription.Text;
-                this.item.ItemQuality = Convert.ToInt32(txtQuality.Text);
-                this.item.ItemQuantity = Convert.ToInt32(txtProductQuantity.Text);
-                this.item.ItemPrice = Convert.ToInt32(txtProductPrice.Text);
-                this.item.ItemOldPrice = Convert.ToInt32(txtOriginPrice.Text);
+                setInfoUpdate();
                 itemsDAO.UpdateItem(this.item);
-
             }
 
         }
@@ -107,7 +90,7 @@ namespace FinalProject_WinForm
             txtProductQuantity.Text= Convert.ToString(this.item.ItemQuantity);
             txtProductPrice.Text = Convert.ToString(this.item.ItemPrice);
             txtQuality.Text = Convert.ToString(this.item.ItemQuality);
-            txtYear.Text = Convert.ToString(this.item.ItemYear);
+            cbCatagory.SelectedValue= this.item.ItemCatagory;
             txtOriginPrice.Text = Convert.ToString(this.item.ItemOldPrice);
 
             Image[] images = new Image[3];
@@ -127,10 +110,29 @@ namespace FinalProject_WinForm
         {
             lbMode.Text = mode.ToUpper();
         }
-
-        private void lbOriginPrice_Click(object sender, EventArgs e)
+        private void setUCinfo(Items items)
         {
-
+            byte[] imageData = File.ReadAllBytes(items.ItemImage[0]); ;
+            Image image = Functions.ByteArrayToImage(imageData);
+            UCItems uCItems = new UCItems(items);
+            UCMyProduct myProduct = new UCMyProduct(items);
+            myProduct.ProductImage = uCItems.ProductImage = image;
+            myProduct.ProductName = uCItems.ProductName = items.ItemName;
+            uCItems.ProductOldPrice = items.ItemOldPrice.ToString();
+            uCItems.ProductPrice = Convert.ToString(items.ItemPrice);
+            myProduct.ProductQuantity = Convert.ToString(items.ItemQuantity);
+            logIn.homePage.list.Add(uCItems);
+            logIn.homePage.list1.Add(myProduct);
+        }
+        private void setInfoUpdate()
+        {
+            this.item.ItemName = txtProductName.Text;
+            this.item.ItemDescription = txtProductDiscription.Text;
+            this.item.ItemQuality = Convert.ToInt32(txtQuality.Text);
+            this.item.ItemQuantity = Convert.ToInt32(txtProductQuantity.Text);
+            this.item.ItemPrice = Convert.ToInt32(txtProductPrice.Text);
+            this.item.ItemOldPrice = Convert.ToInt32(txtOriginPrice.Text);
+           
         }
     }
 }

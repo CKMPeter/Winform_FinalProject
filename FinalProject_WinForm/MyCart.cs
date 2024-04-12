@@ -15,8 +15,9 @@ namespace FinalProject_WinForm
         FormEntry logIn = Program.logIn;
         User user;
         int numberOfProdcuts = 0;
-        public MyCart()
+        public MyCart(User A)
         {
+            this.user = A;
             InitializeComponent();
         }
         private void createList()
@@ -29,10 +30,10 @@ namespace FinalProject_WinForm
             {
                 foreach (UCMyProduct item in logIn.homePage.list1)
                 {
-                    if (item.items_.UserName == user.Name)
+                    foreach( OrderedItem item_ in this.user.cart.Items)
                     {
-                        numberOfProdcuts++;
-                        flpList.Controls.Add(item);
+                        if (item.ProductName == item_.ItemName)
+                            flpList.Controls.Add(item);
                     }
                 }
                 lbNumberProducts.Text = numberOfProdcuts.ToString();

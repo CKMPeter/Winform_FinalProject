@@ -15,7 +15,7 @@ namespace FinalProject_WinForm
         private int gender;
         private string avatar;
         private int rating;
-        private Cart cart;
+        public Cart cart;
         public string Name { get { return name; }set { name = value; } }
         public string Password { get { return password; }set { password = value; } }
         public string Email { get { return email; }set { email = value; } }

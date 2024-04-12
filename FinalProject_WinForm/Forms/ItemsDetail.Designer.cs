@@ -226,7 +226,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(444, 249);
+            label8.Location = new Point(422, 249);
             label8.Name = "label8";
             label8.Size = new Size(152, 46);
             label8.TabIndex = 20;
@@ -357,9 +357,9 @@
             panel4.Controls.Add(lbYear);
             panel4.Controls.Add(label5);
             panel4.Controls.Add(lbOriginPrice);
-            panel4.Location = new Point(445, 298);
+            panel4.Location = new Point(422, 298);
             panel4.Name = "panel4";
-            panel4.Size = new Size(304, 146);
+            panel4.Size = new Size(327, 146);
             panel4.TabIndex = 22;
             // 
             // label3
@@ -368,9 +368,9 @@
             label3.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(15, 9);
             label3.Name = "label3";
-            label3.Size = new Size(80, 37);
+            label3.Size = new Size(118, 37);
             label3.TabIndex = 14;
-            label3.Text = "Year:";
+            label3.Text = "Upload:";
             // 
             // lbPrice
             // 
@@ -396,10 +396,10 @@
             // lbYear
             // 
             lbYear.AutoSize = true;
-            lbYear.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            lbYear.Location = new Point(205, 9);
+            lbYear.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            lbYear.Location = new Point(205, 21);
             lbYear.Name = "lbYear";
-            lbYear.Size = new Size(33, 37);
+            lbYear.Size = new Size(20, 23);
             lbYear.TabIndex = 19;
             lbYear.Text = "1";
             // 
@@ -506,9 +506,9 @@
             // ucMenu1
             // 
             ucMenu1.BackColor = Color.FromArgb(60, 100, 159);
-            ucMenu1.Location = new Point(-4, -5);
+            ucMenu1.Location = new Point(-4, -3);
             ucMenu1.Name = "ucMenu1";
-            ucMenu1.Size = new Size(1500, 114);
+            ucMenu1.Size = new Size(1200, 94);
             ucMenu1.TabIndex = 2;
             // 
             // ItemsDetail

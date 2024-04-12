@@ -120,8 +120,8 @@ namespace FinalProject_WinForm
         private void pbAddCart_Click(object sender, EventArgs e)
         {
             lbTotal.Text = (Convert.ToInt32(txtQuantity.Text) * this.item.ItemPrice).ToString();
-            cartDAO.AddToCart(logIn.homePage.user, this.item, Convert.ToInt32(txtQuantity.Text)
-                );
+            cartDAO.AddToCart(logIn.homePage.user, this.item, Convert.ToInt32(txtQuantity.Text));
+            
         }
 
         private void pbItemImage1_Click(object sender, EventArgs e)
@@ -178,9 +178,27 @@ namespace FinalProject_WinForm
         private void checkOwnership()
         {
             if (logIn.homePage.user.Name == this.item.UserName)
+            {
                 this.pbUpdateItem.Show();
+                this.pbOneStar.Hide();
+                this.pbTwoStar.Hide();
+                this.pbThreeStar.Hide();
+                this.pbFourStar.Hide();
+                this.pbFiveStar.Hide();
+                this.pbSummit.Hide();
+                this.pbAddCart.Hide();
+            }
             else
+            { 
                 this.pbUpdateItem.Hide();
+                this.pbOneStar.Show();
+                this.pbTwoStar.Show();
+                this.pbThreeStar.Show();
+                this.pbFourStar.Show();
+                this.pbFiveStar.Show();
+                this.pbSummit.Show();
+                this.pbAddCart.Show();
+            }
         }
         private void resetStar()
         {
@@ -224,7 +242,7 @@ namespace FinalProject_WinForm
             lbItemsDisciption.Text = item.ItemDescription;
             lbPrice.Text = Convert.ToString(item.ItemPrice);
             lbOriginPrice.Text = Convert.ToString(item.ItemOldPrice);
-            lbYear.Text = Convert.ToString(item.ItemYear);
+            lbYear.Text = item.ItemYear.ToString("dd/MM/yyyy");
             lbSellerName.Text = item.UserName;
             lbQuantity.Text = Convert.ToString(item.ItemQuantity);
             if (item.ItemQuality < 10) lbQuantity.ForeColor = Color.Red;

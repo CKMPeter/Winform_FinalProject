@@ -1,8 +1,9 @@
-﻿drop table UserInfo;
-drop table ItemInfo;
-drop procedure AddToCartProc;
-drop table CartDetail;
-drop view CartView;
+﻿--drop table UserInfo;
+--drop table ItemInfo;
+--drop procedure AddToCartProc;
+--drop procedure UpdateRatingProc;
+--drop table CartDetail;
+--drop view CartView;
 
 --Create tables
 create table UserInfo(
@@ -25,11 +26,12 @@ create table ItemInfo(
 	ItemImage VarChar(max),
 	ItemImage1 VarChar(max),
 	ItemImage2 VarChar(max),
-	ItemYear int,
+	ItemYear datetime,
 	ItemQuanlity int,
 	OwnerName VarChar(50) References UserInfo(UserName),
 	ItemOldPrice int,
-	ItemRating int
+	ItemRating int,
+	ItemCatagory varchar(20)
 );
 go
 

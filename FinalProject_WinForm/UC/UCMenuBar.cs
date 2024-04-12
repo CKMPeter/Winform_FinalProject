@@ -91,7 +91,10 @@ namespace FinalProject_WinForm
         }
         private void pbCheckOut_Click(object sender, EventArgs e)
         {
-
+            if (((Form)this.TopLevelControl).GetType().Name == "MyCart") return;
+            ((Form)this.TopLevelControl).Hide();
+            logIn.homePage.myProduct.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
+            logIn.homePage.myProduct.Show();
         }
 
         private void pbViewCart_Click(object sender, EventArgs e)

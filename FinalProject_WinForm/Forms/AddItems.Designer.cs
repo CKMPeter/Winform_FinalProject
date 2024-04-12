@@ -47,7 +47,6 @@
             label3 = new Label();
             label6 = new Label();
             txtOriginPrice = new TextBox();
-            txtYear = new TextBox();
             label4 = new Label();
             label1 = new Label();
             txtProductName = new TextBox();
@@ -57,6 +56,7 @@
             txtProductQuantity = new TextBox();
             lbMode = new Label();
             label7 = new Label();
+            cbCatagory = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbAddCart).BeginInit();
@@ -205,13 +205,13 @@
             // panel4
             // 
             panel4.BackColor = SystemColors.ControlLight;
+            panel4.Controls.Add(cbCatagory);
             panel4.Controls.Add(label8);
             panel4.Controls.Add(txtProductPrice);
             panel4.Controls.Add(txtQuality);
             panel4.Controls.Add(label3);
             panel4.Controls.Add(label6);
             panel4.Controls.Add(txtOriginPrice);
-            panel4.Controls.Add(txtYear);
             panel4.Controls.Add(label4);
             panel4.ForeColor = SystemColors.ActiveCaptionText;
             panel4.Location = new Point(27, 232);
@@ -265,9 +265,9 @@
             label6.Location = new Point(12, 85);
             label6.Margin = new Padding(3, 5, 3, 10);
             label6.Name = "label6";
-            label6.Size = new Size(71, 32);
+            label6.Size = new Size(125, 32);
             label6.TabIndex = 12;
-            label6.Text = "Year:";
+            label6.Text = "Catagory:";
             // 
             // txtOriginPrice
             // 
@@ -276,18 +276,11 @@
             txtOriginPrice.Size = new Size(379, 27);
             txtOriginPrice.TabIndex = 7;
             // 
-            // txtYear
-            // 
-            txtYear.Location = new Point(40, 116);
-            txtYear.Name = "txtYear";
-            txtYear.Size = new Size(380, 27);
-            txtYear.TabIndex = 8;
-            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(12, 237);
+            label4.Location = new Point(12, 230);
             label4.Margin = new Padding(3, 5, 3, 10);
             label4.Name = "label4";
             label4.Size = new Size(177, 32);
@@ -380,6 +373,16 @@
             label7.TabIndex = 11;
             label7.Text = "INVENTORY";
             // 
+            // cbCatagory
+            // 
+            cbCatagory.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            cbCatagory.FormattingEnabled = true;
+            cbCatagory.Items.AddRange(new object[] { "Decoratives", "Electronics", "Furnitures", "Favorites" });
+            cbCatagory.Location = new Point(40, 124);
+            cbCatagory.Name = "cbCatagory";
+            cbCatagory.Size = new Size(380, 28);
+            cbCatagory.TabIndex = 17;
+            // 
             // AddItems
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -433,7 +436,6 @@
         private Label label4;
         private TextBox txtOriginPrice;
         private Label label6;
-        private TextBox txtYear;
         private Label label8;
         private PictureBox pbItemsPicture2;
         private PictureBox pbItemsPicture1;
@@ -444,5 +446,6 @@
         private Label lbMode;
         private Panel panel4;
         private Panel panel5;
+        private ComboBox cbCatagory;
     }
 }

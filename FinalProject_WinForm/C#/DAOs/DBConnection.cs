@@ -92,7 +92,7 @@ namespace FinalProject_WinForm
                     imageList[1] = reader.GetString(6); // Assuming the image data is in column index 5
                     imageList[2] = reader.GetString(7); // Assuming the image data is in column index 6
 
-                    Items tmp = new Items(reader.GetString(1), reader.GetString(3), reader.GetInt32(2), reader.GetInt32(4), reader.GetString(10), imageList, reader.GetInt32(9), reader.GetInt32(8), reader.GetInt32(11), reader.GetInt32(12));
+                    Items tmp = new Items(reader.GetString(1), reader.GetString(3), reader.GetInt32(2), reader.GetInt32(4), reader.GetString(10), imageList, reader.GetInt32(9), reader.GetDateTime(8), reader.GetInt32(11), reader.GetInt32(12), reader.GetString(13));
                     tmp.ItemId = reader.GetGuid(0).ToString();
                     Loadlist.Add(tmp);
 

@@ -17,7 +17,6 @@ D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\ob
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\ref\FinalProject_WinForm.dll
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.HomePage.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.Properties.Resources.resources
-D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.SignUp.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UCSellerInfo.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\obj\Debug\net7.0-windows\FinalProject_WinForm.UserMoreInfo.resources
 D:\ĐH SPKT_CAO KKHAI MINH\Năm 3\hk2\Window Programming\FinalProject_WinForm\bin\Debug\net7.0-windows\FinalProject_WinForm.dll.config
