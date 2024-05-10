@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            pbUserRating = new PictureBox();
             pbUpdateItem = new PictureBox();
             pbItemImage3 = new PictureBox();
             pbItemImage2 = new PictureBox();
             pbItemImage1 = new PictureBox();
             label1 = new Label();
             lbSellerName = new Label();
-            pictureBox2 = new PictureBox();
             pbItemsPicture = new PictureBox();
             panel2 = new Panel();
             pbSummit = new PictureBox();
@@ -67,11 +67,11 @@
             pictureBox1 = new PictureBox();
             ucMenu1 = new UCMenu();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pbUserRating).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbUpdateItem).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbItemImage3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbItemImage2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbItemImage1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbItemsPicture).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbSummit).BeginInit();
@@ -92,18 +92,28 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(60, 100, 159);
+            panel1.Controls.Add(pbUserRating);
             panel1.Controls.Add(pbUpdateItem);
             panel1.Controls.Add(pbItemImage3);
             panel1.Controls.Add(pbItemImage2);
             panel1.Controls.Add(pbItemImage1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(lbSellerName);
-            panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pbItemsPicture);
             panel1.Location = new Point(34, 143);
             panel1.Name = "panel1";
             panel1.Size = new Size(297, 524);
             panel1.TabIndex = 0;
+            // 
+            // pbUserRating
+            // 
+            pbUserRating.Image = Properties.Resources.thumb_up;
+            pbUserRating.Location = new Point(177, 374);
+            pbUserRating.Name = "pbUserRating";
+            pbUserRating.Size = new Size(50, 50);
+            pbUserRating.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbUserRating.TabIndex = 11;
+            pbUserRating.TabStop = false;
             // 
             // pbUpdateItem
             // 
@@ -162,21 +172,11 @@
             lbSellerName.AutoSize = true;
             lbSellerName.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbSellerName.ForeColor = Color.FromArgb(204, 233, 255);
-            lbSellerName.Location = new Point(12, 380);
+            lbSellerName.Location = new Point(21, 383);
             lbSellerName.Name = "lbSellerName";
             lbSellerName.Size = new Size(150, 28);
             lbSellerName.TabIndex = 3;
             lbSellerName.Text = "Cao Khải Minh";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.information;
-            pictureBox2.Location = new Point(221, 450);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(50, 50);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
             // 
             // pbItemsPicture
             // 
@@ -521,15 +521,16 @@
             Controls.Add(pictureBox1);
             Controls.Add(ucMenu1);
             Name = "ItemsDetail";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Detail";
             Load += ItemsDetail_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pbUserRating).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbUpdateItem).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbItemImage3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbItemImage2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbItemImage1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbItemsPicture).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -568,7 +569,6 @@
         private PictureBox pbFourStar;
         private PictureBox pbThreeStar;
         private PictureBox pbTwoStar;
-        private PictureBox pictureBox2;
         private Label label1;
         private Label lbSellerName;
         private Label lbPrice;
@@ -592,5 +592,6 @@
         private PictureBox pbAdd;
         private PictureBox pbSubtract;
         private TextBox txtQuantity;
+        private PictureBox pbUserRating;
     }
 }

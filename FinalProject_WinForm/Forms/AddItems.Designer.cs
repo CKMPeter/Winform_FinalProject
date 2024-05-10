@@ -41,6 +41,7 @@
             pbPictureUpload = new PictureBox();
             pbItemsPicture = new PictureBox();
             panel4 = new Panel();
+            cbCatagory = new ComboBox();
             label8 = new Label();
             txtProductPrice = new TextBox();
             txtQuality = new TextBox();
@@ -56,7 +57,8 @@
             txtProductQuantity = new TextBox();
             lbMode = new Label();
             label7 = new Label();
-            cbCatagory = new ComboBox();
+            pictureBox2 = new PictureBox();
+            txtVoucher = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbAddCart).BeginInit();
@@ -70,6 +72,7 @@
             panel4.SuspendLayout();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // ucMenu1
@@ -123,6 +126,8 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(txtVoucher);
+            panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(pbPictureUpload2);
             panel2.Controls.Add(pbPictureUpload1);
             panel2.Controls.Add(pbItemsPicture2);
@@ -218,6 +223,16 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(460, 317);
             panel4.TabIndex = 20;
+            // 
+            // cbCatagory
+            // 
+            cbCatagory.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            cbCatagory.FormattingEnabled = true;
+            cbCatagory.Items.AddRange(new object[] { "Decoratives", "Electronics", "Furnitures", "Favorites" });
+            cbCatagory.Location = new Point(40, 124);
+            cbCatagory.Name = "cbCatagory";
+            cbCatagory.Size = new Size(380, 28);
+            cbCatagory.TabIndex = 17;
             // 
             // label8
             // 
@@ -373,15 +388,24 @@
             label7.TabIndex = 11;
             label7.Text = "INVENTORY";
             // 
-            // cbCatagory
+            // pictureBox2
             // 
-            cbCatagory.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            cbCatagory.FormattingEnabled = true;
-            cbCatagory.Items.AddRange(new object[] { "Decoratives", "Electronics", "Furnitures", "Favorites" });
-            cbCatagory.Location = new Point(40, 124);
-            cbCatagory.Name = "cbCatagory";
-            cbCatagory.Size = new Size(380, 28);
-            cbCatagory.TabIndex = 17;
+            pictureBox2.Image = Properties.Resources.transit;
+            pictureBox2.Location = new Point(510, 444);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(50, 50);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 21;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pbAddVoucher_Click;
+            // 
+            // txtVoucher
+            // 
+            txtVoucher.Font = new Font("Segoe UI", 19F, FontStyle.Regular, GraphicsUnit.Point);
+            txtVoucher.Location = new Point(566, 444);
+            txtVoucher.Name = "txtVoucher";
+            txtVoucher.Size = new Size(194, 50);
+            txtVoucher.TabIndex = 18;
             // 
             // AddItems
             // 
@@ -393,6 +417,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(ucMenu1);
             Name = "AddItems";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += AddItems_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -413,6 +438,7 @@
             panel1.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -447,5 +473,7 @@
         private Panel panel4;
         private Panel panel5;
         private ComboBox cbCatagory;
+        private TextBox txtVoucher;
+        private PictureBox pictureBox2;
     }
 }

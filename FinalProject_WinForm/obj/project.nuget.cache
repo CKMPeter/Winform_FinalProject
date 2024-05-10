@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLghf/RdMjAiHIZwi05CCrEF/iwOue9i4PuO6nraXPnQ/mmFUXN7+8TfSWTYeGerCcVrg6x8xzRYuNoJdaORyQ==",
+  "dgSpecHash": "Lag98BbUzl4ehZO5wN+eGWAYq83fnkmW8K6K9aMjXvNWDCTwzPj3+sTUYLeJ4f65c/hLvKpJiHrkXgK4KvLZew==",
   "success": true,
-  "projectFilePath": "D:\\ĐH SPKT_CAO KKHAI MINH\\Năm 3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj",
+  "projectFilePath": "D:\\ĐH SPKT_CAO KKHAI MINH\\Nam3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -36,6 +36,8 @@ namespace FinalProject_WinForm
             txtPassword.Text = this.user.Password;
             txtEmail.Text = this.user.Email;
             txtAddress.Text = this.user.Address;
+            txtVisa.Text = this.user.Visa;
+            txtPaypal.Text = this.user.Paypal;
             switch (this.user.Gender)
             {
                 case 1:
@@ -57,41 +59,6 @@ namespace FinalProject_WinForm
                     break;
             }
         }
-        private void btnMainReturn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserMoreInfo_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pbUpload_Click(object sender, EventArgs e)
         {
             if (!Functions.CheckFormatEmail(txtEmail.Text) || !checkDupEmail())
@@ -105,7 +72,7 @@ namespace FinalProject_WinForm
         }
         public bool checkDupEmail()
         {
-            foreach(User tmp in logIn.usersList)
+            foreach (User tmp in logIn.usersList)
             {
                 if (tmp.Email == txtEmail.Text) { return false; }
             }
@@ -119,6 +86,8 @@ namespace FinalProject_WinForm
             this.user.Email = txtEmail.Text;
             this.user.Address = txtAddress.Text;
             this.user.Gender = ucGender.returnGender();
+            this.user.Visa = txtVisa.Text;
+            this.user.Paypal = txtPaypal.Text;
         }
 
         private void pbUpdateAvatar_Click(object sender, EventArgs e)

@@ -127,5 +127,10 @@ namespace FinalProject_WinForm
             }
             return pairs;
         }
+        public static OrderedItem convertItemToOrderItem(Items item)
+        {
+            OrderedItem tmp = new OrderedItem(item.ItemQuantity, item.ItemName, item.ItemId, item.UserName, item.ItemPrice);
+            return tmp;
+        }
     }
 }

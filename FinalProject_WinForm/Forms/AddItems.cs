@@ -43,7 +43,7 @@ namespace FinalProject_WinForm
                 itemsDAO.AddItems(items);
                 setUCinfo(items);
             }
-            else if (mode == "update"&& Functions.checkValidQuantity(txtProductQuantity.Text))
+            else if (mode == "update" && Functions.checkValidQuantity(txtProductQuantity.Text))
             {
                 setInfoUpdate();
                 itemsDAO.UpdateItem(this.item);
@@ -87,10 +87,10 @@ namespace FinalProject_WinForm
             if (this.item.ItemName == null) { return; }
             txtProductName.Text = this.item.ItemName;
             txtProductDiscription.Text = this.item.ItemDescription;
-            txtProductQuantity.Text= Convert.ToString(this.item.ItemQuantity);
+            txtProductQuantity.Text = Convert.ToString(this.item.ItemQuantity);
             txtProductPrice.Text = Convert.ToString(this.item.ItemPrice);
             txtQuality.Text = Convert.ToString(this.item.ItemQuality);
-            cbCatagory.SelectedValue= this.item.ItemCatagory;
+            cbCatagory.SelectedValue = this.item.ItemCatagory;
             txtOriginPrice.Text = Convert.ToString(this.item.ItemOldPrice);
 
             Image[] images = new Image[3];
@@ -132,7 +132,13 @@ namespace FinalProject_WinForm
             this.item.ItemQuantity = Convert.ToInt32(txtProductQuantity.Text);
             this.item.ItemPrice = Convert.ToInt32(txtProductPrice.Text);
             this.item.ItemOldPrice = Convert.ToInt32(txtOriginPrice.Text);
-           
+
+        }
+
+        private void pbAddVoucher_Click(object sender, EventArgs e)
+        {
+            VoucherDao voucherDao = new VoucherDao();
+            voucherDao.addVoucher(this.item.ItemId, Convert.ToInt32(txtVoucher.Text));
         }
     }
 }

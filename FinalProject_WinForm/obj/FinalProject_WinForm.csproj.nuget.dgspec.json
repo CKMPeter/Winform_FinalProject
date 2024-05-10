@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ĐH SPKT_CAO KKHAI MINH\\Năm 3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj": {}
+    "D:\\ĐH SPKT_CAO KKHAI MINH\\Nam3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj": {}
   },
   "projects": {
-    "D:\\ĐH SPKT_CAO KKHAI MINH\\Năm 3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj": {
+    "D:\\ĐH SPKT_CAO KKHAI MINH\\Nam3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ĐH SPKT_CAO KKHAI MINH\\Năm 3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj",
+        "projectUniqueName": "D:\\ĐH SPKT_CAO KKHAI MINH\\Nam3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj",
         "projectName": "FinalProject_WinForm",
-        "projectPath": "D:\\ĐH SPKT_CAO KKHAI MINH\\Năm 3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj",
+        "projectPath": "D:\\ĐH SPKT_CAO KKHAI MINH\\Nam3\\hk2\\Window Programming\\FinalProject_WinForm\\FinalProject_WinForm.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ĐH SPKT_CAO KKHAI MINH\\Năm 3\\hk2\\Window Programming\\FinalProject_WinForm\\obj\\",
+        "outputPath": "D:\\ĐH SPKT_CAO KKHAI MINH\\Nam3\\hk2\\Window Programming\\FinalProject_WinForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

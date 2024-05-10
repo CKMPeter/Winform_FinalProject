@@ -175,6 +175,7 @@
             Controls.Add(panel2);
             Controls.Add(pictureBox1);
             Name = "FormEntry";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Main";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

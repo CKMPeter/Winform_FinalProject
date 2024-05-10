@@ -34,8 +34,10 @@
             pictureBox2 = new PictureBox();
             cbCatagory = new ComboBox();
             ucMenu1 = new UCMenu();
+            pbMyCart = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pbSearch).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbMyCart).BeginInit();
             SuspendLayout();
             // 
             // flpList
@@ -54,14 +56,14 @@
             tbSearch.Location = new Point(336, 128);
             tbSearch.Name = "tbSearch";
             tbSearch.PlaceholderText = "Search";
-            tbSearch.Size = new Size(711, 65);
+            tbSearch.Size = new Size(628, 65);
             tbSearch.TabIndex = 7;
             // 
             // pbSearch
             // 
             pbSearch.BackColor = Color.White;
             pbSearch.Image = Properties.Resources.search2;
-            pbSearch.Location = new Point(1062, 128);
+            pbSearch.Location = new Point(981, 128);
             pbSearch.Name = "pbSearch";
             pbSearch.Size = new Size(65, 65);
             pbSearch.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -99,11 +101,24 @@
             ucMenu1.Size = new Size(1200, 94);
             ucMenu1.TabIndex = 12;
             // 
+            // pbMyCart
+            // 
+            pbMyCart.BackColor = Color.White;
+            pbMyCart.Image = Properties.Resources.checklist;
+            pbMyCart.Location = new Point(1062, 128);
+            pbMyCart.Name = "pbMyCart";
+            pbMyCart.Size = new Size(65, 65);
+            pbMyCart.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbMyCart.TabIndex = 13;
+            pbMyCart.TabStop = false;
+            pbMyCart.Click += pbMyCart_Click;
+            // 
             // HomePage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1182, 753);
+            Controls.Add(pbMyCart);
             Controls.Add(ucMenu1);
             Controls.Add(cbCatagory);
             Controls.Add(pbSearch);
@@ -112,10 +127,12 @@
             Controls.Add(pictureBox2);
             ForeColor = Color.FromArgb(204, 233, 255);
             Name = "HomePage";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HomePage";
             Load += HomePage_Load;
             ((System.ComponentModel.ISupportInitialize)pbSearch).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbMyCart).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -127,5 +144,6 @@
         private PictureBox pictureBox2;
         private ComboBox cbCatagory;
         private UCMenu ucMenu1;
+        private PictureBox pbMyCart;
     }
 }

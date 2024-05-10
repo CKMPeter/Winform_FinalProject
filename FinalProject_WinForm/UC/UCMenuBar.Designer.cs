@@ -30,7 +30,6 @@
         {
             pbLogOut = new PictureBox();
             pbViewCart = new PictureBox();
-            pbCheckOut = new PictureBox();
             pbInfo = new PictureBox();
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -38,7 +37,6 @@
             pbAddItems = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pbLogOut).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbViewCart).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbCheckOut).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbInfo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbMenu).BeginInit();
@@ -73,25 +71,10 @@
             pbViewCart.MouseEnter += pbViewCart_MouseEnter;
             pbViewCart.MouseLeave += pbViewCart_MouseLeave;
             // 
-            // pbCheckOut
-            // 
-            pbCheckOut.BackColor = Color.FromArgb(60, 100, 159);
-            pbCheckOut.Image = Properties.Resources.checkout1;
-            pbCheckOut.Location = new Point(836, 17);
-            pbCheckOut.Margin = new Padding(20, 3, 20, 3);
-            pbCheckOut.Name = "pbCheckOut";
-            pbCheckOut.Size = new Size(47, 38);
-            pbCheckOut.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbCheckOut.TabIndex = 15;
-            pbCheckOut.TabStop = false;
-            pbCheckOut.Click += pbCheckOut_Click;
-            pbCheckOut.MouseEnter += pbCheckOut_MouseEnter;
-            pbCheckOut.MouseLeave += pbCheckOut_MouseLeave;
-            // 
             // pbInfo
             // 
             pbInfo.Image = Properties.Resources.user1;
-            pbInfo.Location = new Point(752, 17);
+            pbInfo.Location = new Point(839, 17);
             pbInfo.Margin = new Padding(20, 3, 20, 3);
             pbInfo.Name = "pbInfo";
             pbInfo.Size = new Size(44, 38);
@@ -126,7 +109,7 @@
             // pbMenu
             // 
             pbMenu.Image = Properties.Resources.menu;
-            pbMenu.Location = new Point(668, 17);
+            pbMenu.Location = new Point(755, 17);
             pbMenu.Margin = new Padding(20, 3, 20, 3);
             pbMenu.Name = "pbMenu";
             pbMenu.Size = new Size(44, 38);
@@ -161,14 +144,12 @@
             Controls.Add(label1);
             Controls.Add(pbLogOut);
             Controls.Add(pbViewCart);
-            Controls.Add(pbCheckOut);
             Controls.Add(pbInfo);
             Controls.Add(pictureBox1);
             Name = "UCMenu";
             Size = new Size(1200, 91);
             ((System.ComponentModel.ISupportInitialize)pbLogOut).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbViewCart).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbCheckOut).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbInfo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbMenu).EndInit();
@@ -181,7 +162,6 @@
 
         private PictureBox pbLogOut;
         private PictureBox pbViewCart;
-        private PictureBox pbCheckOut;
         private PictureBox pbInfo;
         private PictureBox pictureBox1;
         private Label label1;

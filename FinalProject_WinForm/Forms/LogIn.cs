@@ -57,7 +57,7 @@ namespace FinalProject_WinForm
             }
             else
             {
-                User Tmp = new User(ucLogin.UserName(), ucLogin.Password(), "", "", 2, null, 5);
+                User Tmp = new User(ucLogin.UserName(), ucLogin.Password(), "", "", 2, null, 5, "", "");
                 userDAO.AddUser(Tmp);
                 usersList = userDAO.LoadUInfo();
                 MessageBox.Show("User name: " + ucLogin.UserName() + "\npassword: "+ ucLogin.Password());

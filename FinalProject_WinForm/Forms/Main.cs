@@ -24,7 +24,7 @@ namespace FinalProject_WinForm
         public List<UCMyProduct> list1 = new List<UCMyProduct>();
         public List<UCItems> list = new List<UCItems>();
 
-        FormEntry logIn = Program.logIn;
+        FormEntry logIn = Program.logIn; 
 
         public HomePage(User user)
         {
@@ -150,9 +150,18 @@ namespace FinalProject_WinForm
                 tmp.ProductOldPrice = Convert.ToString(items.ItemOldPrice);
                 tmp.ProductPrice = Convert.ToString(items.ItemPrice);
                 tmp1.ProductQuantity = Convert.ToString(items.ItemQuantity);
+                tmp1.Price = Convert.ToString(items.ItemPrice);
                 list.Add(tmp);
                 list1.Add(tmp1);
             }
+        }
+
+        private void pbMyCart_Click(object sender, EventArgs e)
+        {
+            Form newForm = new MyCart(this.user);
+            newForm.Closed += (s, args) => this.Close();
+            newForm.Show();
+            this.Hide();
         }
     }
 }

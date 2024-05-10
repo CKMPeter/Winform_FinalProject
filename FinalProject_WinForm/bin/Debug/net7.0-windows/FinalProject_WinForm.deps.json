@@ -12,6 +12,11 @@
         },
         "runtime": {
           "FinalProject_WinForm.dll": {}
+        },
+        "resources": {
+          "aa-DJ/FinalProject_WinForm.resources.dll": {
+            "locale": "aa-DJ"
+          }
         }
       },
       "Azure.Core/1.35.0": {

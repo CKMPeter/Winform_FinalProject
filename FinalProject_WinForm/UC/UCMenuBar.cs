@@ -30,18 +30,6 @@ namespace FinalProject_WinForm
             this.pbInfo.Width -= 10;
         }
 
-        private void pbCheckOut_MouseEnter(object sender, EventArgs e)
-        {
-            this.pbCheckOut.Height += 10;
-            this.pbCheckOut.Width += 10;
-        }
-
-        private void pbCheckOut_MouseLeave(object sender, EventArgs e)
-        {
-            this.pbCheckOut.Height -= 10;
-            this.pbCheckOut.Width -= 10;
-        }
-
         private void pbViewCart_MouseEnter(object sender, EventArgs e)
         {
             this.pbViewCart.Height += 10;

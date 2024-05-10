@@ -1,5 +1,6 @@
 ﻿using FinalProject_WinForm.Properties;
 using Microsoft.VisualBasic.ApplicationServices;
+using Microsoft.VisualBasic.Logging;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -120,8 +121,8 @@ namespace FinalProject_WinForm
         private void pbAddCart_Click(object sender, EventArgs e)
         {
             lbTotal.Text = (Convert.ToInt32(txtQuantity.Text) * this.item.ItemPrice).ToString();
+            logIn.homePage.user.Cart.Items.Add(Functions.convertItemToOrderItem(this.item));
             cartDAO.AddToCart(logIn.homePage.user, this.item, Convert.ToInt32(txtQuantity.Text));
-            
         }
 
         private void pbItemImage1_Click(object sender, EventArgs e)
@@ -160,7 +161,9 @@ namespace FinalProject_WinForm
 
         private void pbSummit_Click(object sender, EventArgs e)
         {
+            RatingDAO ratingDAO = new RatingDAO();
             this.item.ItemRating = (this.item.ItemRating + starCount()) / 2;
+            ratingDAO.addRating(logIn.homePage.user.Name, this.item.ItemId.ToString(), starCount());
             itemsDAO.UpdateRating(this.item);
         }
 
@@ -187,9 +190,10 @@ namespace FinalProject_WinForm
                 this.pbFiveStar.Hide();
                 this.pbSummit.Hide();
                 this.pbAddCart.Hide();
+                this.pbUserRating.Hide();
             }
             else
-            { 
+            {
                 this.pbUpdateItem.Hide();
                 this.pbOneStar.Show();
                 this.pbTwoStar.Show();
@@ -198,6 +202,7 @@ namespace FinalProject_WinForm
                 this.pbFiveStar.Show();
                 this.pbSummit.Show();
                 this.pbAddCart.Show();
+                this.pbUserRating.Show();
             }
         }
         private void resetStar()
@@ -245,6 +250,9 @@ namespace FinalProject_WinForm
             lbYear.Text = item.ItemYear.ToString("dd/MM/yyyy");
             lbSellerName.Text = item.UserName;
             lbQuantity.Text = Convert.ToString(item.ItemQuantity);
+            if (item.ItemRating >= 4)
+                pbUserRating.Image = Resources.thumb_up;
+            else pbUserRating.Image = Resources.thumb_down;
             if (item.ItemQuality < 10) lbQuantity.ForeColor = Color.Red;
             else lbQuantity.ForeColor = Color.Green;
 
@@ -269,6 +277,5 @@ namespace FinalProject_WinForm
                 default: break;
             }
         }
-       
     }
 }

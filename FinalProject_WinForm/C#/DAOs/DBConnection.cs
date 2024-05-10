@@ -56,7 +56,7 @@ namespace FinalProject_WinForm
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    User tmp = new User(reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetInt32(5), reader.GetString(4), reader.GetInt32(6));
+                    User tmp = new User(reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetInt32(5), reader.GetString(4), reader.GetInt32(6), reader.GetString(7), reader.GetString(8));
                     list.Add(tmp);
                 }
                 reader.Close();
@@ -143,6 +143,28 @@ namespace FinalProject_WinForm
                 conn.Close();
             }
             return LoadCart;
+        }
+
+        public DataTable Voucher(string sqlStr, string action)
+        {
+            try
+            {
+                conn.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                DataTable dtSinhVien = new DataTable();
+                adapter.Fill(dtSinhVien);
+                return dtSinhVien; /// gvHsinh = name cua data gridview
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+            finally
+            {
+                conn.Close();
+               
+            }
+            return null;
         }
     }
 }

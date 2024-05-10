@@ -22,13 +22,14 @@ namespace FinalProject_WinForm
 
         public void AddUser(User A)
         {
-            string sqlStr = string.Format("INSERT INTO UserInfo(UserName, UserPassword, UserGender, UserAddress, UserEmail, UserImage, UserRating) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}')", A.Name, A.Password, A.Gender, A.Address, A.Email, A.Avatar, A.Rating);
+            string sqlStr = string.Format("INSERT INTO UserInfo(UserName, UserPassword, UserGender, UserAddress, UserEmail, UserImage, UserRating, UserVisa, UserPaypal) " +
+                "VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')", A.Name, A.Password, A.Gender, A.Address, A.Email, A.Avatar, A.Rating, A.Visa, A.Paypal);
             db.Execute(sqlStr, "add");
         }
         
         public void UpdateUser(User A)
         {
-            string sqlStr = string.Format($"UPDATE UserInfo SET UserPassword = '{A.Password}', UserEmail = '{A.Email}', UserAddress = '{A.Address}', UserGender = '{A.Gender}', UserImage = '{A.Avatar}', UserRating = '{A.Rating}' WHERE UserName = '{A.Name}'");
+            string sqlStr = string.Format($"UPDATE UserInfo SET UserPassword = '{A.Password}', UserEmail = '{A.Email}', UserAddress = '{A.Address}', UserGender = '{A.Gender}', UserImage = '{A.Avatar}', UserRating = '{A.Rating}', UserVisa = '{A.Visa}', UserPaypal = '{A.Paypal}' WHERE UserName = '{A.Name}'");
             db.Execute(sqlStr, "update");
         }
     }
